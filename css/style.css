@@ -1,0 +1,145 @@
+/* Обнуление */
+ 
+html {
+  box-sizing: border-box;
+ }
+ *, *::before, *::after {
+  box-sizing: inherit;
+ }
+ img {
+  display: block;
+ }
+ h1, h2, h3, h4, h5, h6, p, ul, li, a {
+  padding: 0;
+  margin: 0;
+ }
+ body {
+  margin: 0;
+  padding: 0;
+ }
+ 
+ /* Переменные с цветами */
+ 
+ :root {
+  --darck-color: #141414;
+  --white-color: #fff;
+  --gray-color: #828282;
+  --gray_bg-color: #f6f6f6;
+ }
+ 
+ /* Стили для текста */
+ 
+ .text_h1 {
+  font-family: 'RobotoBlack';
+  font-size: 155px;
+  color: var(--darck-color);
+  }
+   .text_a {
+    font-family: 'RobotoRegular';
+    font-size: 16px;
+    color: var(--darck-color);
+  }
+ /* .text_h2 {
+  font-family: 'RobotoRegular';
+  font-size: 34px;
+  line-height: -1px;
+  text-align: center;
+ }
+ .text_h3 {
+  font-family: 'RobotoRegular';
+  font-size: 14px;
+  line-height: -1px;
+  text-align: center;
+ }
+ .text_p {
+  font-family: 'RobotoRegular';
+  font-size: 18px;
+  line-height: -1px;
+  text-align: center;
+ } */
+ 
+ /* Контэйнер */
+ .btn {
+  font-family: 'RobotoRegular';
+  font-size: 16px;
+  color: var(--white-color);
+  background-color: var(--darck-color);
+  border: solid 1px var(--darck-color);
+  border-radius: 24px;
+  width: 208px;
+  height: 48px;
+ }
+ .btn__transparent:hover {
+  color: var(--darck-color);
+  background-color: var(--white-color);
+ }
+ .btn__transparent {
+  font-family: 'RobotoRegular';
+  font-size: 16px;
+  color: var(--darck-color);
+  background-color: var(--white-color);
+  border: solid 1px var(--darck-color);
+  border-radius: 24px;
+  width: 210px;
+  height: 50px;
+ }
+ .btn__transparent:hover {
+  color: var(--white-color);
+  background-color: var(--darck-color);
+ }
+ .container {
+  max-width: 1330px;
+  margin: 0 auto;
+ }
+
+ /* Header */
+
+ /* NavMenu */
+
+.footer {
+}
+.footer__navmenu {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-left: 5px;
+}
+.footer__navmenu_left {
+  width: 258px;
+  display: flex;
+  list-style: none; 
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 85px;
+ 
+}
+.footer__navmenu_li {
+  margin-right: 7px;
+}
+.text_a {
+  text-decoration: none;
+  
+}
+.logo {
+}
+.footer__navmenu_rigth {
+  width: 343px;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5px;
+}
+.footer__navmenu_a {
+  text-decoration: none;
+}
+.footer__navmenu_btn {
+}
+.btn {
+}
+.footer__navmenu_a-icon {
+}
+.footer__navmenu_icon {
+}
