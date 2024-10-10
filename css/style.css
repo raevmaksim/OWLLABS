@@ -214,3 +214,42 @@ body {
     margin: 0 auto 50px;
   }
 }
+
+@media screen and (max-width: 878px) {
+  .container {
+    max-width: 650px;
+  }
+  .header__navmenu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header__navmenu_left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .logo{
+    margin: 0 auto 30px;
+  }
+  .header__navmenu_rigth{
+    width: 100%;
+  }
+  .header__burger {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+  }
+  .header__burger_line {
+    height: 7px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background-color: var(--acent-color);
+  }
+  .header__burger_line:last-child {
+    margin-bottom: 0;
+  }
+  
+}
